@@ -1,0 +1,46 @@
+input[type="button"] {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+  }
+
+  input[id="display"] {
+    width: 250px;
+    height: 50px;
+  }
+
+  .a{
+    background-image: linear-gradient(to left, rgb(42, 20, 66) , rgb(170, 106, 210) );
+    background-size: 500% 100%;
+    animation: degrade-animado 3s infinite alternate;
+    font-family: OCR A Std, monospace;
+  }
+
+  @keyframes degrade-animado {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+  }
+
+  #div1 {
+    border: 1px solid rgb(227, 222, 230) ;
+    background-color: rgb(193, 115, 242) ;
+    width: 450px;
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+
+  .isa{
+    scale: 20px;
+  }
+
+  h3{
+    color: rgb(189, 202, 214);
+  }
+
+  h2{
+    color: aliceblue;
+  }
